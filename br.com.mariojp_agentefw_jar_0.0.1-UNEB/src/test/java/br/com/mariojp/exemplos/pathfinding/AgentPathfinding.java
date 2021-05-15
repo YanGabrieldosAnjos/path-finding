@@ -47,6 +47,6 @@ public class AgentPathfinding {
 			System.out.println(cam);
 			System.out.println(agent);
 			System.out.println(nofinal);
-			System.out.println("-------------");
+			System.out.println("\n" + "\u001B[31m" + "Wait to next..." + "\u001B[0m" + "\n");
     }
 }
