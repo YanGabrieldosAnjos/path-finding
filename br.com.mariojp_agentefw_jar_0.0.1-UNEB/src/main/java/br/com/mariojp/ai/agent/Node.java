@@ -108,7 +108,6 @@ public final class Node implements INode {
 	public String toString() {
 		StringBuffer sb = new StringBuffer();
 		sb.append("> Action: " + this.action + ", \t\tCusto: " + this.cost + ", \t\tProfundidade: " + this.depth + "\n");
-		// sb.append(this.state.toString());
 		return sb.toString();
 	}
 
